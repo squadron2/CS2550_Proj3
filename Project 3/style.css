@@ -1,3 +1,9 @@
+img {
+    vertical-align: middle;
+    width: 400px;
+    height: 400px;
+}
+
 header { grid-area: header; }
 main { grid-area: main; }
 footer { grid-area: footer; }
@@ -34,6 +40,8 @@ html, body, .grid-container {
     padding: 40px 10px 40px 10px;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
 .grid-container > footer {
