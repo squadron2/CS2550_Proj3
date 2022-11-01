@@ -36,24 +36,6 @@ html, body, .grid-container {
     flex-wrap: wrap;
 }
 
-.fig_left {
-    background-color: lightgray;
-    padding: 10px 10px;
-    margin: auto;
-}
-
-.fig_center {
-    background-color: darkgray;
-    padding: 10px 10px;
-    margin: auto;
-}
-
-.fig_right {
-    background-color: gray;
-    padding: 10x 10px;
-    margin: auto;
-}
-
 .grid-container > footer {
     background-color: lightsalmon;
 }
