@@ -1,0 +1,28 @@
+header { grid-area: header; }
+nav { grid-area: nav; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+
+html, body, .grid-container {
+    height: 100%;
+    margin: 0;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      "header header header nav nav"
+      "main main main main main"
+      "main main main main main"
+      "main main main main main"
+      "footer footer footer footer footer";
+  }
+
+.grid-container * {
+  border: 1px solid red;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
