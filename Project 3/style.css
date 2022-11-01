@@ -1,7 +1,5 @@
 img {
     vertical-align: middle;
-    width: 400px;
-    height: 400px;
 }
 
 header { grid-area: header; }
@@ -35,6 +33,11 @@ html, body, .grid-container {
   background-color: lightskyblue;
 }
 
+.grid-container > header > figure > img {
+    width: 150px;
+    height: 150px;
+}
+
 .grid-container > main {
     background-color: green;
     padding: 40px 10px 40px 10px;
@@ -42,6 +45,11 @@ html, body, .grid-container {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+}
+
+.grid-container > main > figure > img {
+    width: 500px;
+    height: 500px;
 }
 
 .grid-container > footer {
